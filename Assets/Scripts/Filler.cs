@@ -16,11 +16,11 @@ public class Filler : MonoBehaviour
     {
         text = GetComponentInChildren<Text>();
         slider = GetComponent<Slider>();
-        StartCoroutine(Fill(speed, (x) => IntClass.countA = x, ()=> { return IntClass.countA; }));
-        StartCoroutine(Fill(speed, (x)=> IntClass.countB = x, ()=> { return IntClass.countB; }));
+        StartCoroutine(Fill(speed,  IntClass.countA));
+        StartCoroutine(Fill(speed,  IntClass.countB));
     }
 
-    IEnumerator Fill(float sp, Action<int> velocity, Value value)
+    IEnumerator Fill(float sp, int value)
     {
         while(true)
         {
@@ -32,7 +32,7 @@ public class Filler : MonoBehaviour
                 text.text = sp.ToString();
                 yield return new WaitForSeconds(0.01f);
             }
-            velocity(value()+1);
+            value++;
         }
 
     }
