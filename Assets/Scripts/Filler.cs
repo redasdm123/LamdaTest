@@ -16,8 +16,8 @@ public class Filler : MonoBehaviour
     {
         text = GetComponentInChildren<Text>();
         slider = GetComponent<Slider>();
-        StartCoroutine(Fill(0.01f,(x)=> x=IntClass.countA,()=> { return IntClass.countA; }));
-        StartCoroutine(Fill(0.02f, (x)=>x= IntClass.countB,()=>{ return IntClass.countB; }));
+        StartCoroutine(Fill(speed, (x) => IntClass.countA = x, ()=> { return IntClass.countA; }));
+        StartCoroutine(Fill(speed, (x)=> IntClass.countB = x, ()=> { return IntClass.countB; }));
     }
 
     IEnumerator Fill(float sp, Action<int> velocity, Value value)
