@@ -3,13 +3,14 @@ using UnityEngine.UI;
 
 public class IntClass: MonoBehaviour
 {
-    public static int countA = 1;
-    public static int countB = 1;
-    public Text[] texts;
-
+    public static int count = 0;
+    Text text;
+    private void Start()
+    {
+        text=GetComponent<Text>();
+    }
     private void Update()
     {
-        texts[0].text = countA.ToString();
-        texts[1].text = countB.ToString();
+        text.text = count.ToString();
     }
 }
