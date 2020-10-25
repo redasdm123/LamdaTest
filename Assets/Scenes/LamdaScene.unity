@@ -593,6 +593,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &883665852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -612,6 +613,8 @@ MonoBehaviour:
 =======
   speed: 0.2
 >>>>>>> parent of ce2d609... 완성코드
+=======
+>>>>>>> parent of 207b4d9... 람다식
 --- !u!1 &1099347041
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,6 +825,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &1232196059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -841,6 +845,8 @@ MonoBehaviour:
 =======
   speed: 0.1
 >>>>>>> parent of ce2d609... 완성코드
+=======
+>>>>>>> parent of 207b4d9... 람다식
 --- !u!1 &1369559996
 GameObject:
   m_ObjectHideFlags: 0
@@ -990,6 +996,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 1402428739}
   m_CullTransparentMesh: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!1 &1449920825
 GameObject:
@@ -1070,6 +1077,8 @@ CanvasRenderer:
   m_GameObject: {fileID: 1449920825}
   m_CullTransparentMesh: 0
 >>>>>>> parent of 8f7d01d... Revert "완성1"
+=======
+>>>>>>> parent of 207b4d9... 람다식
 --- !u!1 &1473377329
 GameObject:
   m_ObjectHideFlags: 0
