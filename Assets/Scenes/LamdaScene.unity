@@ -605,9 +605,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1222117ce88e24e46acb693e93a9d961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   speed: 0.002
 =======
 >>>>>>> parent of 207b4d9... 람다식
+=======
+  speed: 0.2
+>>>>>>> parent of ce2d609... 완성코드
 --- !u!1 &1099347041
 GameObject:
   m_ObjectHideFlags: 0
@@ -830,9 +834,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1222117ce88e24e46acb693e93a9d961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   speed: 0.003
 =======
 >>>>>>> parent of 207b4d9... 람다식
+=======
+  speed: 0.1
+>>>>>>> parent of ce2d609... 완성코드
 --- !u!1 &1369559996
 GameObject:
   m_ObjectHideFlags: 0
