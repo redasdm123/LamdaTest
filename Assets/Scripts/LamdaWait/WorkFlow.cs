@@ -6,12 +6,13 @@ using UnityEngine.UI;
 public class WorkFlow : MonoBehaviour
 {
     Slider slider;
+    public bool isFinished;
     private void Awake()
     {
         slider = GetComponent<Slider>();
     }
     public IEnumerator Working()
-    {
+    { 
         float t = 0;
         while(t<1)
         {
@@ -19,5 +20,6 @@ public class WorkFlow : MonoBehaviour
             t += 0.01f;
             yield return null;
         }
+        isFinished = true;
     }
 }

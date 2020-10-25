@@ -12,7 +12,7 @@ public class WorkFinish : MonoBehaviour
     {
         text = GetComponent<Text>();
         workFlow = FindObjectOfType<WorkFlow>();
-        MakeWork();
+        StartCoroutine(MakeWork());
     }
 
     void ShowText()
@@ -20,9 +20,10 @@ public class WorkFinish : MonoBehaviour
         text.text = "완성";
     }
 
-    void MakeWork()
+    IEnumerator MakeWork()
     {
         StartCoroutine(workFlow.Working());
+        yield return new WaitUntil(() => workFlow.isFinished);
         ShowText();
     }
 }
